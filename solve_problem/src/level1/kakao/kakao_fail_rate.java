@@ -1,3 +1,4 @@
+//실패율
 package level1.kakao;
 
 import java.util.ArrayList;

@@ -1,3 +1,4 @@
+//내적
 package level1.monthChallenge;
 
 public class monthChanllenge_dot_product {

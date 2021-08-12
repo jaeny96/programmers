@@ -1,3 +1,4 @@
+//신규 아이디 추천
 package level1.kakao;
 
 public class kakao_newId {

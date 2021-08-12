@@ -1,3 +1,4 @@
+//약수의 개수와 덧셈
 package level1.monthChallenge;
 
 public class monthChallenge_Number_Addition {

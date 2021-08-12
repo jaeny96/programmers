@@ -1,3 +1,4 @@
+//2주차
 package level1.weekly;
 
 import java.util.ArrayList;

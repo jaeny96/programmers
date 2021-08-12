@@ -1,3 +1,4 @@
+//소수 만들기
 package level1.summerAndWinter;
 
 public class summer_winter_prime_number {
