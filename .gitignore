@@ -1,2 +1,3 @@
 /.metadata/
-/codingTest/
+solve_problem/bin/codingTest/*
+solve_problem/src/codingTest/*
