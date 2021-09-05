@@ -1,4 +1,4 @@
-package skilCheck;
+package skillCheck;
 
 import java.util.ArrayList;
 import java.util.List;

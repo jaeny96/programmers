@@ -1,4 +1,4 @@
-package skilCheck;
+package skillCheck;
 
 import java.util.HashMap;
 import java.util.Map;

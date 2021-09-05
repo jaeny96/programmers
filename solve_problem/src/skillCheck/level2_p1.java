@@ -1,4 +1,4 @@
-package skilCheck;
+package skillCheck;
 
 public class level2_p1 {
 
