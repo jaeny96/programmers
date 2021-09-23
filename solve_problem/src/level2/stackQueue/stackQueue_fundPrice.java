@@ -33,25 +33,4 @@ public class stackQueue_fundPrice {
 		}
 		return answer;
 	}
-	public static int[] solution2(int[] prices) {
-		int[] answer = new int[prices.length];
-//		Stack<Integer> stk = new Stack<Integer>();
-		List<Integer> list = new ArrayList<>();
-		for (int p : prices) {
-			list.add(p);
-		}
-
-		for (int i = 0; i < list.size(); i++) {
-			int time = 1;
-			for (int j = i + 1; j < list.size(); j++) {
-				if (list.get(i) > list.get(j) || j == list.size() - 1) {
-					answer[i] = time;
-					break;
-				} else {
-					time++;
-				}
-			}
-		}
-		return answer;
-	}
 }
