@@ -24,7 +24,7 @@ public class kakao_fileNameSort {
 
 				if (result == 0) {
 					String numberTail1 = o1.substring(head1.length());
-					String numberTail2 = o2.substring(head1.length());
+					String numberTail2 = o2.substring(head2.length());
 
 					return number(numberTail1) - (number(numberTail2));
 				} else {
