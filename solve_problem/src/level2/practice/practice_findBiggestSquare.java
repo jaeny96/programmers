@@ -29,7 +29,6 @@ public class practice_findBiggestSquare {
 				}
 			}
 		}
-
 		return answer * answer;
 	}
 }
