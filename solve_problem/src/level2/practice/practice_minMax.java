@@ -1,8 +1,7 @@
+//최댓값과 최솟값
 package level2.practice;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.Arrays;
 
 public class practice_minMax {
 
@@ -12,18 +11,16 @@ public class practice_minMax {
 	}
 
 	public static String solution(String s) {
-		List<Integer> list = new ArrayList<>();
 		String[] str = s.split(" ");
-		for(String a : str) {
-			int tmp=0;
-			if(a.charAt(0)=='-') {
-				tmp=Integer.parseInt(a.replace("-", ""))*-1;
-			}else {
-				tmp=Integer.parseInt(a);
+		int[] numbers = new int[str.length];
+		for (int i = 0; i < str.length; i++) {
+			if (str[i].charAt(0) == '-') {
+				numbers[i] = Integer.parseInt(str[i].replace("-", "")) * -1;
+			} else {
+				numbers[i] = Integer.parseInt(str[i]);
 			}
-			list.add(tmp);
 		}
-
-		return Collections.min(list) + " " + Collections.max(list);
+		Arrays.sort(numbers);
+		return numbers[0] + " " + numbers[numbers.length - 1];
 	}
 }
